@@ -1,0 +1,272 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "7310bda8-0aa2-11e8-aa51-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "label", 
+                    "nodegroup_id": "7310b98f-0aa2-11e8-b2fa-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "33608f78-0aa2-11e8-95d5-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Monetary_Amount", 
+                    "nodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "61ad213d-0aa2-11e8-9f8d-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "label", 
+                    "nodegroup_id": "61ad1c6e-0aa2-11e8-b19e-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "525b70a8-0aa2-11e8-b203-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "type", 
+                    "nodegroup_id": "525b6ba8-0aa2-11e8-bead-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "4ce49142-0aa2-11e8-929c-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "type", 
+                    "nodegroup_id": "4ce48e5e-0aa2-11e8-9ee3-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "edgeid": "4ce49478-0aa2-11e8-91da-a4d18cec433a", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "4ce48e5e-0aa2-11e8-9ee3-a4d18cec433a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "edgeid": "7310c138-0aa2-11e8-a4db-a4d18cec433a", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", 
+                    "rangenode_id": "7310b98f-0aa2-11e8-b2fa-a4d18cec433a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "edgeid": "525b7897-0aa2-11e8-8783-a4d18cec433a", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency", 
+                    "rangenode_id": "525b6ba8-0aa2-11e8-bead-a4d18cec433a"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "edgeid": "61ad24b8-0aa2-11e8-9480-a4d18cec433a", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label", 
+                    "rangenode_id": "61ad1c6e-0aa2-11e8-b19e-a4d18cec433a"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+            "iconclass": "fa fa-euro", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Monetary_Amount", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "61ad1c6e-0aa2-11e8-b19e-a4d18cec433a", 
+                    "parentnodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "4ce48e5e-0aa2-11e8-9ee3-a4d18cec433a", 
+                    "parentnodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "7310b98f-0aa2-11e8-b2fa-a4d18cec433a", 
+                    "parentnodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "525b6ba8-0aa2-11e8-bead-a4d18cec433a", 
+                    "parentnodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "value", 
+                    "nodegroup_id": "7310b98f-0aa2-11e8-b2fa-a4d18cec433a", 
+                    "nodeid": "7310b98f-0aa2-11e8-b2fa-a4d18cec433a", 
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal", 
+                    "parentproperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "type", 
+                    "nodegroup_id": "4ce48e5e-0aa2-11e8-9ee3-a4d18cec433a", 
+                    "nodeid": "4ce48e5e-0aa2-11e8-9ee3-a4d18cec433a", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "label", 
+                    "nodegroup_id": "61ad1c6e-0aa2-11e8-b19e-a4d18cec433a", 
+                    "nodeid": "61ad1c6e-0aa2-11e8-b19e-a4d18cec433a", 
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string", 
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "currency", 
+                    "nodegroup_id": "525b6ba8-0aa2-11e8-bead-a4d18cec433a", 
+                    "nodeid": "525b6ba8-0aa2-11e8-bead-a4d18cec433a", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E98_Currency", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Monetary_Amount", 
+                    "nodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "nodeid": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "335ebd75-0aa2-11e8-995c-a4d18cec433a", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Monetary_Amount", 
+                "nodegroup_id": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                "nodeid": "335eb9c7-0aa2-11e8-8559-a4d18cec433a", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "d2a0f80c-0aaa-11e8-b541-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "d29ed69e-0aaa-11e8-8f2f-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "payment-ref", 
+                    "nodegroup_id": "d29ed061-0aaa-11e8-92d2-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "d29ed69e-0aaa-11e8-8f2f-a4d18cec433a", 
+            "iconclass": "fa fa-long-arrow-right", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "payment-ref", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "d29ed061-0aaa-11e8-92d2-a4d18cec433a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "graphid": null
+                    }, 
+                    "datatype": "resource-instance", 
+                    "description": "", 
+                    "graph_id": "d29ed69e-0aaa-11e8-8f2f-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "payment", 
+                    "nodegroup_id": "d29ed061-0aaa-11e8-92d2-a4d18cec433a", 
+                    "nodeid": "d29ed061-0aaa-11e8-92d2-a4d18cec433a", 
+                    "ontologyclass": "https://linked.art/ns/terms/Payment", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "graphid": null
+                }, 
+                "datatype": "resource-instance", 
+                "description": "", 
+                "graph_id": "d29ed69e-0aaa-11e8-8f2f-a4d18cec433a", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "payment", 
+                "nodegroup_id": "d29ed061-0aaa-11e8-92d2-a4d18cec433a", 
+                "nodeid": "d29ed061-0aaa-11e8-92d2-a4d18cec433a", 
+                "ontologyclass": "https://linked.art/ns/terms/Payment"
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ]
+}

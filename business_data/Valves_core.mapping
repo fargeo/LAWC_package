@@ -1,0 +1,57 @@
+{
+    "resource_model_id": "d01c311c-ef64-11e8-a6fd-dca90488358a", 
+    "resource_model_name": "Valves", 
+    "nodes": [
+        {
+            "arches_nodeid": "c349cab5-ef65-11e8-908e-dca90488358a", 
+            "arches_node_name": "Address", 
+            "file_field_name": "Address", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "fbc39528-ef65-11e8-8426-dca90488358a", 
+            "arches_node_name": "Description", 
+            "file_field_name": "Description", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d3343b38-ef69-11e8-853b-dca90488358a", 
+            "arches_node_name": "Installation Date", 
+            "file_field_name": "Installation_Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7bd6aa42-ef69-11e8-bd6a-dca90488358a", 
+            "arches_node_name": "Make", 
+            "file_field_name": "Make", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "8eef8994-ef66-11e8-9c04-dca90488358a", 
+            "arches_node_name": "Map", 
+            "file_field_name": "Map", 
+            "data_type": "geojson-feature-collection", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "a620049c-ef69-11e8-b953-dca90488358a", 
+            "arches_node_name": "Size", 
+            "file_field_name": "Size", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "6d275d70-ef69-11e8-9b17-dca90488358a", 
+            "arches_node_name": "Valve Number", 
+            "file_field_name": "Valve Number", 
+            "data_type": "string", 
+            "export": true
+        }
+    ]
+}

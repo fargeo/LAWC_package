@@ -1,0 +1,87 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "bacb4a14-0aac-11e8-b9b9-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "bac9b5de-0aac-11e8-ba7f-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "legal-ref", 
+                    "nodegroup_id": "bac9afc5-0aac-11e8-8a5c-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "bac9b5de-0aac-11e8-ba7f-a4d18cec433a", 
+            "iconclass": "fa fa-long-arrow-right", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "legal-ref", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "bac9afc5-0aac-11e8-8a5c-a4d18cec433a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "bac9b5de-0aac-11e8-ba7f-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Top Node", 
+                    "nodegroup_id": "bac9afc5-0aac-11e8-8a5c-a4d18cec433a", 
+                    "nodeid": "bac9afc5-0aac-11e8-8a5c-a4d18cec433a", 
+                    "ontologyclass": "https://linked.art/ns/terms/LegalClaim", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "bac9b5de-0aac-11e8-ba7f-a4d18cec433a", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Top Node", 
+                "nodegroup_id": "bac9afc5-0aac-11e8-8a5c-a4d18cec433a", 
+                "nodeid": "bac9afc5-0aac-11e8-8a5c-a4d18cec433a", 
+                "ontologyclass": "https://linked.art/ns/terms/LegalClaim"
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ]
+}

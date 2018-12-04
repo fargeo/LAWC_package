@@ -1,0 +1,83 @@
+{
+    "graph": [
+        {
+            "author": " ", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "beb81ec5-0872-11e8-a910-a4d18cec433a", 
+                    "description": "", 
+                    "graph_id": "beb63d97-0872-11e8-9f80-a4d18cec433a", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "label", 
+                    "nodegroup_id": "beb637ba-0872-11e8-96b8-a4d18cec433a", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "beb63d97-0872-11e8-9f80-a4d18cec433a", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "label", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "beb637ba-0872-11e8-96b8-a4d18cec433a", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "beb63d97-0872-11e8-9f80-a4d18cec433a", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "label", 
+                    "nodegroup_id": "beb637ba-0872-11e8-96b8-a4d18cec433a", 
+                    "nodeid": "beb637ba-0872-11e8-96b8-a4d18cec433a", 
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string", 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "string", 
+                "description": "", 
+                "graph_id": "beb63d97-0872-11e8-9f80-a4d18cec433a", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "label", 
+                "nodegroup_id": "beb637ba-0872-11e8-96b8-a4d18cec433a", 
+                "nodeid": "beb637ba-0872-11e8-96b8-a4d18cec433a", 
+                "ontologyclass": "http://www.w3.org/2001/XMLSchema#string"
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ]
+}
